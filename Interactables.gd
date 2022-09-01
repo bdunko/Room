@@ -9,7 +9,7 @@ class Bed:
 		return "Try as you might, the bed is too heavy to move."
 	
 	func look(var player):
-		return "It's a queen-sized bed. The 'bedsheet' is white, as is the case of the 'pillow'. It looks comfy."
+		return "It's a queen-sized bed. The 'bedsheet' is white. The bed looks comfy, barring the conspicuous lack of a pillow."
 	
 	func use(var player, var interactable_list):
 		return "This is no time for a nap!\nHave you completely forgotten the situation you're in?"
@@ -281,7 +281,6 @@ func _ready():
 		"use",
 		"look"
 	]
-	pass # Replace with function body.
 	
 func reset():
 	interactable_list = [
