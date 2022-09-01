@@ -114,7 +114,7 @@ class Lamp:
 		return "You pick up the portable lamp."
 		
 	func look(var player):
-		return "It's a portable camping lamp. The lamp is %d." % [("lit" if lit else "unlit")]
+		return "It's a portable camping lamp. The lamp is %s." % [("lit" if lit else "unlit")]
 		
 	func lit():
 		return lit
